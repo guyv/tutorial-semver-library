@@ -11,4 +11,8 @@ public class Name {
     public String getValue() {
         return value;
     }
+
+    public int length() {
+        return getValue().length();
+    }
 }
