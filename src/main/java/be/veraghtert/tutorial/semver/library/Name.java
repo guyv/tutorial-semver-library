@@ -9,6 +9,6 @@ public class Name {
     }
 
     public String getValue() {
-        return "the " + value;
+        return new StringBuilder(value).reverse().toString();
     }
 }
