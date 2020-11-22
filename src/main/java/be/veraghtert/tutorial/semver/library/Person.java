@@ -2,13 +2,13 @@ package be.veraghtert.tutorial.semver.library;
 
 public class Person {
 
-    private final Name name;
+    private final UpperCaseName name;
 
     public Person(String name) {
-        this.name = new Name(name);
+        this.name = new UpperCaseName(name);
     }
 
-    public Name getName() {
+    public UpperCaseName getName() {
         return name;
     }
 }
