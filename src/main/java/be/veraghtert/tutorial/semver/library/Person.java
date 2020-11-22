@@ -8,7 +8,7 @@ public class Person {
         this.name = new Name(name);
     }
 
-    public Name getName() {
+    public Object getName() {
         return name;
     }
 }
