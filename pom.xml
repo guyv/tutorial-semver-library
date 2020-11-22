@@ -6,7 +6,7 @@
 
     <groupId>be.veraghtert.tutorial.semver</groupId>
     <artifactId>library</artifactId>
-    <version>1.0.0</version>
+    <version>1.6.0</version>
 
     <build>
         <plugins>
